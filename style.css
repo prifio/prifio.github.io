@@ -4,3 +4,12 @@ body {
     font-size: 20px;
     font-weight: 40000;
 }
+
+button {
+    width :40%;
+    max-width :100px;
+}
+
+#result p{
+    margin :0;
+}
