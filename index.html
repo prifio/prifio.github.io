@@ -4,12 +4,17 @@
     </head>
     <body>
         <p id="word">GO!</p>
-        <button id="nextButton" disabled>Next</button> 
-        <button id="goButton">Start</button> 
-        <p id="timer">0</p>
-        <p id="WhoFor">1 2</p>
+        <button id="nextButton" disabled>Next</button>
+        <button id="goButton">Start</button>
+        <p id="timer">Time left 0</p>
+        <p id="WhoFor">Now 1 is explaing for 2</p>
+        <div id="cntPlayers">
+            <p id="pcntPlayers">Change count players from 3 to</p>
+            <input type="text" placeholder="Number of players (>=2)" pattern="[2-9]|[1-9][0-9]+" id="inp">
+            <button id="applyButton">Apply</button>
+        </div>
         <p>RESULT</p>
-        <div id="result">                
+        <div id="result">       
         </div>
         <script src="main.js"></script>
     </body>
