@@ -5,7 +5,7 @@ html{
 body {
     background-color :#6795ae;
     color :#FFEB3B;
-    font-size: 2rem;
+    font-size: 2.67rem;
     width :100%;
     max-width :500px;
     margin : auto 0;
@@ -13,12 +13,13 @@ body {
 }
 
 #word{
-    font-size :200%;
+    font-size :150%;
 }
 
 button {
-    width :40%;
+    width :45%;
     height :3rem;
+    font-size :85%;
 }
 
 #result p{
@@ -30,7 +31,9 @@ button {
 }
 
 #cntPlayers input{
-    display: inline-block;        
+    display: inline-block; 
+    margin: 0;
+    height :3rem;       
 }
 
 #inp:invalid {

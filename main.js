@@ -82,7 +82,7 @@ function endExplain()
     word.innerText = "GO!";
     nextButton.disabled = true;
     goButton.disabled = false;
-    nextButton.disabled = false;
+    nextButton.disabled = true;
     clearInterval(tim);
     ++whoSay;
     ++forSay;
