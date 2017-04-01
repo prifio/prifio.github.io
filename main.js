@@ -104,7 +104,7 @@ function endExplain()
     word.innerText = "GO!";
     nextButton.disabled = true;
     goButton.disabled = false;
-    nextButton.disabled = true;
+    applyButton.disabled = false;
     clearInterval(tim);
     ++whoSay;
     ++forSay;
