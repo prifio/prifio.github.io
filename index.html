@@ -1,13 +1,19 @@
+<!doctype html>
 <html>
     <head>
+        <meta charset="utf-8">
         <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="hat.ico">
+        <title>EnHat</title>
     </head>
     <body>
         <p id="word">GO!</p>
+        <audio id="audioPlayer"></audio>
         <button id="nextButton" disabled>Next</button>
         <button id="goButton">Start</button>
+        <img src="playButton.png" id="playButton"></img>
         <p id="timer">Time left 0</p>
-        <p id="WhoFor">Now 1 is explaing for 2</p>
+        <p id="WhoFor">Now 1 is explaining for 2</p>
         <div id="cntPlayers">
             <p id="pcntPlayers">Change count players from 3 to</p>
             <input type="text" placeholder="Number of players (>=2)" pattern="[2-9]|[1-9][0-9]+" id="inp">

@@ -14,6 +14,7 @@ body {
 
 #word{
     font-size :150%;
+    margin-top :10px;
 }
 
 button {
@@ -22,8 +23,19 @@ button {
     font-size :85%;
 }
 
+#playButton {
+    height :3.2rem;
+    width :3.2rem;
+    display: block;
+    margin-top :10px;
+}
+
+#playButton:hover {
+    outline :1px solid #f6bb14;
+}
+
 #result p{
-    margin :0;
+    margin :3px;
 }
 
 #cntPlayers p{
@@ -31,9 +43,11 @@ button {
 }
 
 #cntPlayers input{
-    display: inline-block; 
+    display: inline-block;
     margin: 0;
-    height :3rem;       
+    height: 3rem;
+    vertical-align :bottom;
+    box-sizing :border-box;
 }
 
 #inp:invalid {
